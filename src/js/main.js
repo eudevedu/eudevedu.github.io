@@ -17,8 +17,8 @@ $(document).ready(function () {
   // typing animation
   var typed = new Typed('.typing', {
     strings: [
-      'Desenvolvedor Web',
-      'Analista de Sistemas',
+      'Desenvolvedor Web Front-End',
+      'Aprediz de Desenvolvimento Mobile',
       'Apaixonado por Códigos',
       'Gamer',
       'Montador de PC'
