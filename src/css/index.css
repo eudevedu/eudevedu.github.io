@@ -91,7 +91,7 @@ html {
 }
 
 .nav-bar .menu li a:hover {
-  color: var(--color-purple-light);
+  color: var(--color-light);
 }
 
 /* script js sticky */
