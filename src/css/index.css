@@ -352,7 +352,7 @@ section .title::after {
 
 .services .serv-content .card i {
   font-size: 32px;
-  color: var(--color-purple-light);
+  color: var(--color-light);
   transition: color 0.3s ease;
 }
 
