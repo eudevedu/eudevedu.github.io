@@ -18,7 +18,7 @@ $(document).ready(function () {
   var typed = new Typed('.typing', {
     strings: [
       'Desenvolvedor Web Front-End',
-      'Aprediz de Desenvolvimento Mobile',
+      'Aprendiz de Desenvolvimento Mobile',
       'Apaixonado por Códigos',
       'Gamer',
       'Montador de PC'
