@@ -434,7 +434,7 @@ section .title::after {
 }
 
 .skills-content .right .bootstrap::before {
-  width: 50%;
+  width: 20%;
 }
 
 .skills-content .right .js::before {
