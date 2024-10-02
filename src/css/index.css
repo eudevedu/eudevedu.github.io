@@ -27,6 +27,7 @@ html {
   --color-white: rgb(255, 255, 255);
   --color-black: rgb(24, 22, 22);
   --color-black-clean: rgb(33, 33, 33);
+  --color-gradient: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgba(61,61,61,1) 35%, rgba(108,108,108,1) 100%);
 }
 
 
@@ -115,7 +116,7 @@ html {
 /* ============= HOME SECTION ============= */
 .home {
   display: flex;
-  background: var(--color-black) top no-repeat;
+  background: var(--color-gradient) top no-repeat;
   background-size: cover;
   color: var(--color-white);
   height: 100vh;
