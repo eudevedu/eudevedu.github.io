@@ -115,7 +115,7 @@ html {
 /* ============= HOME SECTION ============= */
 .home {
   display: flex;
-  background: url("/src/img/banner-bg.jpg") top no-repeat;
+  background: var(--color-black) top no-repeat;
   background-size: cover;
   color: var(--color-white);
   height: 100vh;
