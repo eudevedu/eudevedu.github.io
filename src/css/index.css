@@ -117,8 +117,6 @@ html {
 .home {
   display: flex;
   background: url(../img/home-icon.jpeg) top no-repeat;
-  background: var(--color-black);
-  opacity: 0.4;
   background-size: cover;
   color: var(--color-white);
   height: 100vh;
