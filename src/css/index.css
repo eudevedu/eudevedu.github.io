@@ -116,7 +116,7 @@ html {
 /* ============= HOME SECTION ============= */
 .home {
   display: flex;
-  background: url(../img/home-icon.jpeg) top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/home-icon.jpeg) top no-repeat;
   background-size: cover;
   color: var(--color-white);
   height: 100vh;
