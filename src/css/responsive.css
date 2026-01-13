@@ -210,3 +210,15 @@
     }
 }
 
+@media (max-width: 768px){
+  .timeline{
+    padding-left: 28px;
+  }
+  .timeline-card{
+    margin-left: 14px;
+    padding: 14px 14px;
+  }
+  .timeline-top h3{
+    font-size: 16px;
+  }
+}
