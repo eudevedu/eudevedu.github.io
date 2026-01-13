@@ -799,3 +799,111 @@ footer span a:hover {
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--text-color-light);
 }
+
+/* =========================
+   EXPERIENCE / TIMELINE
+========================= */
+.experience{
+  background: var(--clean-white-blue);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* subtítulo automático no estilo do seu site (opcional) */
+.experience .title::after{
+  background: var(--clean-white-blue);
+  content: "trajetória";
+  white-space: nowrap;
+}
+
+.experience .experience-content{
+  margin-top: 30px;
+}
+
+.timeline{
+  position: relative;
+  padding-left: 34px;
+}
+
+.timeline::before{
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 5px;
+  bottom: 5px;
+  width: 3px;
+  border-radius: 10px;
+  background: rgba(0, 119, 255, 0.25); /* baseado no --first-color */
+}
+
+.timeline-item{
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.timeline-marker{
+  position: absolute;
+  left: 0;
+  top: 18px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--first-color);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 0 7px rgba(0, 119, 255, 0.18);
+}
+
+.timeline-marker i{
+  color: var(--color-white);
+  font-size: 12px;
+}
+
+.timeline-card{
+  background: var(--color-white);
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  border-radius: 18px;
+  padding: 16px 18px;
+  margin-left: 18px;
+  transition: all .35s ease;
+}
+
+.timeline-card:hover{
+  transform: translateY(-4px);
+  border-color: rgba(0, 119, 255, 0.25);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.10);
+}
+
+.timeline-top{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.timeline-top h3{
+  margin: 0;
+  font-size: 18px;
+  color: var(--color-black);
+}
+
+.timeline-date{
+  font-size: 14px;
+  color: var(--text-color-light);
+}
+
+.timeline-role{
+  margin-top: 8px;
+  font-weight: 600;
+  color: var(--first-color);
+}
+
+.timeline-list{
+  margin-top: 10px;
+  padding-left: 18px;
+  color: var(--color-black-clean);
+}
+
+.timeline-list li{
+  margin: 6px 0;
+}
