@@ -14,6 +14,14 @@ $(document).ready(function () {
     $('.menu-btn i').toggleClass('active');
   });
 
+  // Cursor Glow
+  const cursorGlow = document.querySelector('.cursor-glow');
+  document.addEventListener('mousemove', (e) => {
+    cursorGlow.style.display = 'block';
+    cursorGlow.style.left = e.clientX + 'px';
+    cursorGlow.style.top = e.clientY + 'px';
+  });
+
   // typing animation
   var typed = new Typed('.typing', {
     strings: [
@@ -21,7 +29,6 @@ $(document).ready(function () {
       'Aprendiz de Desenvolvimento Mobile',
       'Apaixonado por Códigos',
       'Gamer',
-      'Montador de PC'
     ],
     typeSpeed: 100,
     backSpeed: 60,
@@ -50,6 +57,14 @@ $(document).ready(function () {
         nav: false,
       },
     },
+  });
+
+  // Initialize Tilt
+  VanillaTilt.init(document.querySelectorAll(".project-card, .services .card"), {
+    max: 15,
+    speed: 400,
+    glare: true,
+    "max-glare": 0.2,
   });
 });
 
@@ -80,4 +95,5 @@ function scrollUp(){
 }
  
 window.addEventListener('scroll', scrollUp);
+
 
