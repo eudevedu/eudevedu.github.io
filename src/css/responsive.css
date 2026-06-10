@@ -40,15 +40,64 @@
     font-size: 24px;
   }
 
+  .home {
+    height: auto;
+    min-height: 100vh;
+    padding: 100px 0 60px 0;
+  }
+
   .home .max-width {
-    flex-direction: column;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    gap: 3rem;
     text-align: center;
-    padding-top: 80px;
+  }
+
+  .home-content {
+    align-items: center;
+  }
+
+  .home-badge {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-ctas {
+    justify-content: center;
   }
 
   .social-media {
     justify-content: center;
+  }
+
+  .home-image {
+    order: -1;
+  }
+
+  .home-image-wrapper {
+    max-width: 280px;
+  }
+
+  .image-card {
+    width: 240px;
+    height: 240px;
+    border-radius: 24px;
+  }
+
+  .badge-1 {
+    left: -10px;
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  .badge-2 {
+    right: -10px;
+    padding: 8px 14px;
+    font-size: 12px;
   }
 
   .about .about-content {
@@ -78,11 +127,22 @@
   }
 
   .home .home-content .text-2 {
-    font-size: 48px;
+    font-size: 40px;
   }
 
   .home .home-content .text-3 {
-    font-size: 24px;
+    font-size: 22px;
+  }
+
+  .home-ctas {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+  }
+
+  .btn-primary, .btn-secondary {
+    width: 100%;
+    justify-content: center;
   }
 
   .timeline::after {
@@ -116,6 +176,6 @@
 
 @media screen and (max-width: 400px) {
   .home .home-content .text-2 {
-    font-size: 40px;
+    font-size: 32px;
   }
 }

@@ -60,7 +60,7 @@ $(document).ready(function () {
   });
 
   // Initialize Tilt
-  VanillaTilt.init(document.querySelectorAll(".project-card, .services .card"), {
+  VanillaTilt.init(document.querySelectorAll(".project-card, .services .card, .image-card"), {
     max: 15,
     speed: 400,
     glare: true,
